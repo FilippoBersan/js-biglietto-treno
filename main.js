@@ -33,9 +33,9 @@ const calcoloSconto40 = (prezzoBiglietto * 40) / 100;
 
 const sconto40 = prezzoBiglietto - calcoloSconto40;
 
-if (numeroEta < '18') {
-  prezzoBiglietto = sconto20;
-} else if (numeroEta > '65') {
-  prezzoBiglietto = sconto40;
-} else numeroEta > '18' < '65';
-prezzoBiglietto;
+if (numeroEta < 18) {
+  alert(sconto20);
+} else if (numeroEta > 65) {
+  alert(sconto40);
+} else numeroEta < 18 < 65;
+alert(prezzoBiglietto);
